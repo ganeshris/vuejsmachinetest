@@ -52,7 +52,7 @@
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
-              Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzeXNhZG1pbiIsInNjb3BlcyI6IlJPTEVfRGV2ZWxvcGVyLFJPTEVfQURNSU4iLCJpYXQiOjE3MTYzNDkyNTEsImV4cCI6MTcxODk0MTI1MX0.fLW0-Uvb6X1fLQNzdiNiYeHO3lMYa1bsFAmOJkGCdRY',
+              //Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzeXNhZG1pbiIsInNjb3BlcyI6IlJPTEVfRGV2ZWxvcGVyLFJPTEVfQURNSU4iLCJpYXQiOjE3MTYzNDkyNTEsImV4cCI6MTcxODk0MTI1MX0.fLW0-Uvb6X1fLQNzdiNiYeHO3lMYa1bsFAmOJkGCdRY',
             },
             body: JSON.stringify({ email: email.value }),
           });
